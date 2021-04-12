@@ -2,10 +2,14 @@ Guide for build-script.py
 
 This is a guide for generating EN, TC and CN scripts on Terminal
 
-1. Open and edit the google spreadsheet on:
-	https://docs.google.com/spreadsheets/d/1ldBZ_sXtI7Pdm_Ozx1nN4Klu3Gh8ms4fMsso0LKZXtA/edit#gid=0
+1. Open and edit spreadsheet with the following patterns:
 
-2. File -> Download -> csv
+| Android  | | | | iOS| | | |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| id  | en  | tc | cn | id  | en  | tc | cn |
+| lable_hello | Hello | 你好！| 你好！| lable_hello | Hello | 你好！| 你好！|
+
+2. Export to .csv
 
 3. Make sure python2.7 has installed on your OS. (python -V)
 
