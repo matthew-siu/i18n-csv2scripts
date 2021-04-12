@@ -1,20 +1,20 @@
-Guide for build-script.py
+### Guide for build-script.py
 
-This is a guide for generating EN, TC and CN scripts on Terminal
+This is a guide for generating EN, TC and CN scripts for .xml (Android) and .strings (iOS) on Terminal.
 
-1. Open and edit spreadsheet with the following patterns:
+Edit the spreadsheet and follow this patterns:
 
 | Android  | | | | iOS| | | |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | id  | en  | tc | cn | id  | en  | tc | cn |
 | lable_hello | Hello | 你好！| 你好！| lable_hello | Hello | 你好！| 你好！|
 
-2. Export to .csv
+Export to .csv
 
-3. Make sure python2.7 has installed on your OS. (python -V)
+Make sure python2.7 has installed on your OS. (python -V)
 
-4a. for Android:
+For Android:
 	python build-script.py [.csv path] -a
 
-4b. for iOS
+For iOS
 	python build-script.py [.csv path] -i
