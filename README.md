@@ -4,11 +4,6 @@ This is a guide for generating EN, TC and CN scripts for .xml (Android) and .str
 
 Edit the spreadsheet and follow this patterns:
 
-| Android  | | | | iOS| | | |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| id  | en  | tc | cn | id  | en  | tc | cn |
-| lable_hello | Hello | 你好！| 你好！| lable_hello | Hello | 你好！| 你好！|
-
 Export to .csv
 
 Make sure python2.7 has installed on your OS. (python -V)
@@ -20,8 +15,15 @@ For iOS
 	python build-script.py [.csv path] -i
 
 
-| Item      | Value |
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+
+| Android     |       |       |       | iOS         |       |       |       |
+| ------------| ----- | ----- | ----- | ----------- | ----- | ----- | ----- |
+| id          | en    | tc    | cn    | id          | en    | tc    | cn    |
+| lable_hello | Hello | 你好！ | 你好！ | lable_hello | Hello | 你好！ | 你好！ |
