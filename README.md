@@ -13,10 +13,11 @@ This is a guide for generating EN, TC and CN scripts for .xml (Android) and .str
 
 3. Make sure python2.7 has installed on your OS. (python -V)
 
-4a. For Android:
-	python build-script.py [.csv path] -a
+4. Run the commands:
+	a. For Android i18n:
+	`python build-script.py [.csv path] -a`
 
-4b. For iOS
-	python build-script.py [.csv path] -i
+	b. For iOS i18n:
+	`python build-script.py [.csv path] -i`
 	
 5. Paste the texts to your project file.	
