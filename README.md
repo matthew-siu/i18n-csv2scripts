@@ -18,3 +18,10 @@ For Android:
 
 For iOS
 	python build-script.py [.csv path] -i
+
+
+| Item      | Value |
+| --------- | -----:|
+| Computer  | $1600 |
+| Phone     |   $12 |
+| Pipe      |    $1 |
