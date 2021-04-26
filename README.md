@@ -1,3 +1,6 @@
+If you want to convert the table in the Google Sheets directly, I highly recommend you to check out this method:
+https://github.com/matthew-siu/i18n-googlesheet-translator
+
 ### Guide for build-script.py
 
 This is a guide for generating EN, TC and CN scripts for .xml (Android) and .strings (iOS) on Terminal.
